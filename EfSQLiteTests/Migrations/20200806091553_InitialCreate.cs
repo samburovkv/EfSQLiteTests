@@ -14,7 +14,7 @@ namespace EfSQLiteTests.Migrations
                     Name = table.Column<string>(nullable: true),
                     Surname = table.Column<string>(nullable: true),
                     Age = table.Column<int>(nullable: false),
-                    Numbers = table.Column<string>(nullable: false, defaultValue: "")
+                    Numbers = table.Column<string>(nullable: false, defaultValue: "[]")
                 },
                 constraints: table =>
                 {
